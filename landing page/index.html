@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        body {
+          background-image: url('background.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+    <header>
+        <h1>De Col Restaurante</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Índice</a></li>
+                <li><a href="#section2">Cardápio</a></li>
+                <li><a href="#section3">Preços</a></li>
+                <li><a href="#section4">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1" class="hero">
+        <div class="hero-content">
+            <h1>Bem vindo ao cardápio digital De Col Restaurante</h1>
+            <p>Deseja realizar seu pedido?</p>
+            <br>
+            <a href="#section2" class="btn">Clique Aqui</a>
+        </div>
+    </section>
+        <h2>Pratos principais:</h2>
+        <br><br>
+    <section id="section2" class="features">
+        <div class="feature">
+            <h2>Prato Feito do dia</h2>
+            <img src="pf.jpeg">
+            <p>Inclui: Arroz, Feijão, Alface, Tomate, Batata frita, Farofa e Bife.</p>
+        </div>
+        <br>
+        <div class="feature">
+            <h2>Buffet</h2>
+            <img src="bf.jpg" width="500" height="334"> 
+            <p>Buffet por quilo.</p>
+        </div>
+        <br>
+        <div class="feature">
+            <h2>Rodízio de carnes</h2>
+            <img src="rd.jpg" width="500" height="334">
+            <p>Inclui o buffet, com o adicional de 13 cortes de carnes.</p>
+        </div>
+    </section>
+    <br>
+    <section id="section3" class="feature">
+        <h2>Preços:</h2>
+        <br>
+        <div class="pricing-plan">
+            <h3>Prato Feito:</h3>
+            <p>R$25,00</p>
+            <br>
+            <h3>Buffet:</h3>
+            <p>R$70,00 por quilo</p>
+            <br>
+            <h3>Rodízio:</h3>
+            <p>Buffet ou Prato Feito + R$40,00</p>
+            <br>
+        </div>
+    </section>
+    <br>
+    <section id="section4" class="feature">
+        <h2>Fale conosco</h2>
+        <p>Precisa de ajuda? Deseja sujerir ou reclamar? Entre em contato conosco aqui!</p>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+    <br>
+    <footer class="footer">
+        <ul>
+            <p>&copy; 2023, De Col Restaurante. Todos os direitos reservados.</p>
+        </ul>
+    </footer>
+</body>
+</html>
